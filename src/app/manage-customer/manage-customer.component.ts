@@ -9,7 +9,7 @@ import {HttpClient} from '@angular/common/http';
 })
 export class ManageCustomerComponent implements OnInit {
 
-  customers: Customer = [];
+  customers: Object = [];
 
   constructor(private http: HttpClient) { }
 
@@ -18,5 +18,7 @@ export class ManageCustomerComponent implements OnInit {
     this.customers = customers;
   });
   }
+ deleteCustomer(customer: Customer): void {
 
+ }
 }
