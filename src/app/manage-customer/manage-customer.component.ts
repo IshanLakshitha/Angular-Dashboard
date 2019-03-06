@@ -10,6 +10,7 @@ export class ManageCustomerComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+
   }
 
 }
