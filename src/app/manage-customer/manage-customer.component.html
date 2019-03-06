@@ -13,10 +13,11 @@
   </tr>
   </thead>
   <tbody>
-  <tr>
-    <td>C001</td>
-    <td>Kasun</td>
-    <td>Galle</td>
+  <tr *mgFor="let customer of customers">
+    <td>{{customer.id}}</td>
+    <td>{{customer.name}}</td>
+    <td>{{customer.address}}</td>
+
     <td><button class="btn btn-danger">Delete</button> </td>
   </tr>
   </tbody>
