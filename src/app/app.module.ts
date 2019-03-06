@@ -8,6 +8,7 @@ import { ManageCustomerComponent } from './manage-customer/manage-customer.compo
 import { ManageItemsComponent } from './manage-items/manage-items.component';
 import { PlaceOrderComponent } from './place-order/place-order.component';
 import { ViewOrderComponent } from './view-order/view-order.component';
+import {RouterModule} from '@angular/router';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,7 @@ import { ViewOrderComponent } from './view-order/view-order.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    RouterModule
   ],
   providers: [],
   bootstrap: [AppComponent]
